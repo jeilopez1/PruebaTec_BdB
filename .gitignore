@@ -1,0 +1,21 @@
+venv/
+**/venv/
+
+# Otras variantes comunes
+.env/
+.venv/
+env/
+ENV/
+
+**/.env/
+**/.venv/
+**/env/
+**/ENV/
+
+
+# Archivos .env
+.env
+.env.*
+**/.env
+**/.env.*
+
