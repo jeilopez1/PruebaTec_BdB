@@ -10,5 +10,5 @@
   ],
   "normalization": "divide_by_255.0",
   "model_type": "CNN",
-  "test_accuracy": 0.9902
+  "test_accuracy": 0.9903
 }

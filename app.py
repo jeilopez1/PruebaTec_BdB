@@ -33,8 +33,6 @@ class PredictRequest(BaseModel):
 
 class PredictResponse(BaseModel):
     prediction: int
-    probabilities: List[float]
-    model_path: str
 
 
 class ErrorResponse(BaseModel):
@@ -158,8 +156,6 @@ def predict(payload: PredictRequest) -> PredictResponse:
 
     return PredictResponse(
         prediction=pred,
-        probabilities=probs.tolist(),
-        model_path=MODEL_PATH,
     )
 
 
